@@ -1,0 +1,26 @@
+/* RecipeSearchForm.css */
+
+.recipe-search-form {
+    text-align: center; /* Align form content in the center */
+}
+
+.search-input {
+    padding: 10px; /* Add padding to input */
+    margin-right: 10px; /* Add margin between input and button */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border-radius */
+    width: 300px; /* Set input width */
+}
+
+.search-button {
+    padding: 10px 20px; /* Add padding to button */
+    background-color: #c6c6c6; /* Add background color */
+    color: rgb(0, 0, 0); /* Add text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border-radius */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+.search-button:hover {
+    background-color: #7794eb; /* Change background color on hover */
+}

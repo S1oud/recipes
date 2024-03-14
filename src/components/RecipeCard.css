@@ -1,0 +1,36 @@
+/* RecipeCard.css */
+
+.recipe-card {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 300px; /* Adjust width as needed */
+    margin: 10px; /* Add margin for spacing between recipe cards */
+    display: inline-block; /* Ensure recipe cards are displayed in a row */
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.recipe-card h3 {
+    margin-top: 10px;
+    font-size: 25px; /* Adjust font size as needed */
+    color: #333;
+}
+
+.diet-select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Style the options within the dropdown */
+.diet-select option {
+    font-size: 14px;
+}
